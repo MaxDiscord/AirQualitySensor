@@ -10,8 +10,7 @@ write = 0
 prev = []
 current = []
 
-#url = "https://www.iqair.com/us/usa/washington/bellevue/bellevue-college"
-#weather = 'https://weather.com/weather/today/l/b12dbcb51efb956165d715e15d87a6cba9b8fcc4a06d820f9c7e8778422c10f6'
+
 url = input ('Air Quality Index URL (IQAIR ONLY) ')
 weather = input ('Weather URL (WEATHER.COM CURRENT DAY ONLY) ')
 filename = input ('Filename? ')
@@ -43,12 +42,6 @@ while True:
         temp = re.findall(r'\d+', str(mydivs))
         prev = 0
         test = soup.findAll('div', {'class' : 'table-wrapper'})
-        if 'PM2.5' in str(test):
-                #print ('Primary Pollutant: PM2.5')
-                pm25 = True
-
-                unhealthy = True
-
         allow = True
         if allow == True:
                 x = f.read()
