@@ -3,4 +3,4 @@ Air Quality by location with automated CSV output suitable for use in Excel, Goo
 
 
 # Dev Notes
-Next update will have the µg/m³ metric on it (µg/m³ is a concentration metric given in micrograms per square metre metric)
+I'm unable to add a 'µg/m³' info area due to there being no sources I can find that have a µg/m³ monitor.
