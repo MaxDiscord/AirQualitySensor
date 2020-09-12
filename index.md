@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Welcome to AirQualitySensor
 
-You can use the [editor on GitHub](https://github.com/MaxDiscord/AirQualitySensor/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+AirQualitySensor takes input from webpages of your choice, and outputs the temperature, and air quality, at those locations.
+### Using AirQualitySensor on Mobile
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Go to https://AirQuality.mmaxm.repl.run for the Air Quality of Mercer Island WA, a new, second version, that allows you to select location, will be  soon
 
-### Markdown
+### Using AirQualitySensor Online
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Simply follow the steps that you would for mobile use.
 
-```markdown
-Syntax highlighted code block
+### Using AirQualitySensor Downloaded
 
-# Header 1
-## Header 2
-### Header 3
+Simply have python 3.x+ downloaded on your computer, then use IDLE to run the program. This method works on both Mac, Windows, and Linux
 
-- Bulleted
-- List
+#### On Mac
 
-1. Numbered
-2. List
+1. Search 'Terminal' in the Mac Search Bar.
+2. Once its open, find the directory in which AirQualitySensor is installed in.
+3. cd into that directory.
+4. run the command 'py3 main.py' and the program will start up.
 
-**Bold** and _Italic_ and `Code` text
+#### On Windows
 
-[Link](url) and ![Image](src)
-```
+1. Search 'cmd' in the Windows Search Bar.
+2. Once its open, find the directory in which AirQualitySensor is installed in.
+3. cd into that directory.
+4. run the command 'python main.py' and the program will start up.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MaxDiscord/AirQualitySensor/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
